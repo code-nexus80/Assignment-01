@@ -60,6 +60,7 @@ nav{
 .hero {
   height: 100vh;
   background: url("/assets/hero-bg.png");
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
   align-items: center;
@@ -136,4 +137,57 @@ nav{
 .btn.secondary:hover {
   background: #fff;
   color: #000;
+}
+.note{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.note-text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mm-box{
+    display: flex;
+    justify-content: center;
+}
+.main-box{
+    display: flex;
+    gap:15px;
+    margin: 20px;
+}
+
+.box{
+    background-color: #fff;
+    width: 322px;
+    border-radius: 8px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 
+    0 5px 5px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(46, 204, 113, 0.15);
+}
+.icon{
+    background-color: red;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i-img{
+    height: 32px;
+    width: 32px;
+}
+.your{
+    text-align: center;
+}
+.sc{
+    padding: 5px 0px;
 }
